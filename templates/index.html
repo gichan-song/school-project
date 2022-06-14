@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        .ad{
+            font-size: 60px;
+        }
+        #dd{
+            position: relative;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+        }
+        #sc {
+            position: relative;
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 42vh;
+
+            background-color: silver;
+            margin: auto;
+        }
+    </style>
+    <title>{{ author }}'s app</title>
+</head>
+
+<body>
+<h2 id="dd">Light Sensor Reading {{ value }}!</h2>
+<div id="sc">
+    <form action="/" method="post">
+        <p><input class="ad" type="submit" name="submit" value="Turn On"></p>
+        <p><input class="ad" type="submit" name="submit" value="Turn Off"></p>
+    </form>
+</div>
+</body>
+</html>
